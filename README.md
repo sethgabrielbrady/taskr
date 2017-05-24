@@ -5,5 +5,6 @@ Taskr is a "Trello like" task manager being built with Rails. The styling is pri
 
  It will allow for users to sign up, log in, delete their account, add tasks, delete tasks, and move tasks.
 
+More to come.
 
  # ![pageres](/app/assets/images/taskr.gif)
