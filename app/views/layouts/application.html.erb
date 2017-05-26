@@ -10,7 +10,11 @@
 
   <body>
     <%= render 'layouts/navbar' %>
-    <section class = 'container'>
+    <% flash.each do |name, msg| %>
+      <%= msg %>
+    <% end %>
+
+        <section class = 'container'>
       <%= yield %>
     <section>
 
