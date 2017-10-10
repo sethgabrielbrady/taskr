@@ -1,23 +1,26 @@
+<body style="color:white;">
 
-<p>
-<%= link_to 'New Task', new_task_path %>
-</p>
+  <p>
+  <%= link_to 'New Task', new_task_path %>
+  </p>
 
-<section class = 'row'>
+  <section class ='row'>
 
-  <aside class = 'col-md-4'>
-    <h1 class ='text-center'>To Do</h1>
-      <%= render @to_do%>
-  </aside>
+    <aside class = 'col-md-4'>
+      <h1 class ='text-center'>To Do</h1>
+      <div style="color:grey;">  <%= render @to_do%></div>
+    </aside>
 
-  <aside class = 'col-md-4'>
-    <h1 class ='text-center' >Doing</h1>
-    <%= render @doing%>
-  </aside>
+    <aside class = 'col-md-4'>
+      <h1 class ='text-center' >Doing</h1>
+      <div style="color:grey;"><%= render @doing%> </div>
+    </aside>
 
-  <aside class = 'col-md-4'>
-    <h1 class ='text-center'>Done</h1>
-    <%= render @done%>
-  </aside>
+    <aside class = 'col-md-4'>
+      <h1 class ='text-center'>Done</h1>
+    <div style="color:grey;">  <%= render @done%> </div>
+    </aside>
 
-</section>
+  </section>
+
+</body>
