@@ -1,0 +1,93 @@
+
+
+////Grid BG/////
+html {
+  height: 100%;
+}
+
+#grid{
+  background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent);
+  height:100%;
+  background-size:50px 50px;
+}
+
+////////////////
+.bg_img{
+  // // background-image: url("http://applehdwallpaper.com/wp-content/uploads/Beautiful-Nature-Wallpaper-Waterfall.jpg");
+  // background-repeat: no-repeat;
+  // background-size: auto;
+  color:rgb(40, 138, 152);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #eee;
+  background-image:linear-gradient(#434343, #282828);
+}
+
+.tasks {
+  .bg_img{
+    // background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://applehdwallpaper.com/wp-content/uploads/Beautiful-Nature-Wallpaper-Waterfall.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+.panel-body{
+  font-size: 1.55em;
+}
+a{
+  color:rgb(40, 138, 152);
+ }
+.panel2{
+  color:rgba(121, 119, 119, 0.34);
+  margin-bottom: 20px;
+  background: linear-gradient(rgba(254, 252, 252, 0.4), rgba(254, 252, 252, 0.4));
+  border: 1px solid rgba(40, 138, 152,0.3);
+  border-radius: 4px;
+  // -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  a{
+    color:rgba(136, 236, 139, 0);
+  }
+}
+
+.panel2:hover{
+  border: 1px solid rgb(40, 138, 152);
+  color:rgba(226, 225, 225, 0.73);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  a{
+    color:rgb(40, 138, 152);
+  }
+
+}
+.panel-heading2{
+  font-size:.75em;
+  padding: 5px 10px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.panel-footer2{
+  font-size:.75em;
+  padding: 5px 10px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.c_date{
+  margin:0px;
+  width:100%;
+  float:left;
+  // text-align: center;
+  font-size:2.5em;
+}
+.c_time{
+  width:100%;
+  float:left;
+  // text-align: center;
+  font-size:2.5em;
+}
+
+.time_control{
+  width:100%;
+  margin-bottom:20px;
+}
