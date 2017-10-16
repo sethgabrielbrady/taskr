@@ -18,13 +18,14 @@ html {
   // background-size: auto;
   color:rgb(40, 138, 152);
   margin: 0;
-  padding: 0;
+  padding:0px;
   height: 100%;
   background-color: #eee;
   background-image:linear-gradient(#434343, #282828);
 }
 
 .tasks {
+  // border: 1px solid rgba(40, 138, 152,0.3);
   .bg_img{
     // background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://applehdwallpaper.com/wp-content/uploads/Beautiful-Nature-Wallpaper-Waterfall.jpg") !important;
     background-repeat: no-repeat;
@@ -32,16 +33,16 @@ html {
   }
 }
 .panel-body{
-  font-size: 1.55em;
+  padding:0px 15px;
+  font-size: 1.2em;
 }
 a{
   color:rgb(40, 138, 152);
  }
 .panel2{
   color:rgba(121, 119, 119, 0.34);
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   background: linear-gradient(rgba(254, 252, 252, 0.4), rgba(254, 252, 252, 0.4));
-  border: 1px solid rgba(40, 138, 152,0.3);
   border-radius: 4px;
   // -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
   box-shadow: 0 1px 1px rgba(0,0,0,0.05);
