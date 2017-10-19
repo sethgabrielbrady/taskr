@@ -13,9 +13,6 @@ html {
 
 ////////////////
 .bg_img{
-  // // background-image: url("http://applehdwallpaper.com/wp-content/uploads/Beautiful-Nature-Wallpaper-Waterfall.jpg");
-  // background-repeat: no-repeat;
-  // background-size: auto;
   color:rgb(40, 138, 152);
   margin: 0;
   padding:0px;
@@ -25,9 +22,7 @@ html {
 }
 
 .tasks {
-  // border: 1px solid rgba(40, 138, 152,0.3);
   .bg_img{
-    // background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://applehdwallpaper.com/wp-content/uploads/Beautiful-Nature-Wallpaper-Waterfall.jpg") !important;
     background-repeat: no-repeat;
     background-size: auto;
   }
@@ -40,11 +35,10 @@ a{
   color:rgb(40, 138, 152);
  }
 .panel2{
-  color:rgba(121, 119, 119, 0.34);
-  // margin-bottom: 20px;
+  border-bottom: 1px solid rgba(170, 170, 170,.4);
+  color:rgb(77, 77, 77);
   background: linear-gradient(rgba(254, 252, 252, 0.4), rgba(254, 252, 252, 0.4));
   border-radius: 4px;
-  // -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
   box-shadow: 0 1px 1px rgba(0,0,0,0.05);
   a{
     color:rgba(136, 236, 139, 0);
@@ -52,24 +46,33 @@ a{
 }
 
 .panel2:hover{
+  border-bottom: 1px solid rgba(170, 170, 170, 0);
   border: 1px solid rgb(40, 138, 152);
   color:rgba(226, 225, 225, 0.73);
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   a{
     color:rgb(40, 138, 152);
   }
-
+  .panel-heading2{
+    height:26px;
+    padding: 5px 10px;
+  }
+  .panel_footer2{
+    height:23px;
+    padding: 12px 10px;
+  }
 }
 .panel-heading2{
+  padding: 3px 10px;
+  height:0px;
   font-size:.75em;
-  padding: 5px 10px;
-  border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
 .panel-footer2{
+  height:0px;
   font-size:.75em;
-  padding: 5px 10px;
+  padding: 3px 10px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -78,13 +81,11 @@ a{
   margin:0px;
   width:100%;
   float:left;
-  // text-align: center;
   font-size:2.5em;
 }
 .c_time{
   width:100%;
   float:left;
-  // text-align: center;
   font-size:2.5em;
 }
 
