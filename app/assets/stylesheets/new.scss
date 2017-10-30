@@ -88,9 +88,26 @@ a{
   float:left;
   font-size:2.5em;
 }
+.c_hour{
+  font-size:2.5em;
+}
+ .c_seconds{
+  font-size:2.5em;
+}
+.c_minutes{
+  font-size:2.5em;
+}
 
 .time_control{
   padding: 5px 10px;
   width:100%;
   margin-bottom:20px;
+}
+
+.c_seconds {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: .4; }
 }

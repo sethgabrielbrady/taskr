@@ -16,15 +16,15 @@
 
       <div class='btn-group btn-group-justified'>
         <% if task.state == 'doing' %>
-        <%= link_to '<i class="fa fa-arrow-left" style="float:left;"></i>'.html_safe, change_task_path(task, state: 'to_do'),
+        <%= link_to '<i class="fa fa-arrow-left" style="float:left; position:relative;top:-10px; left:-8px;" ></i>'.html_safe, change_task_path(task, state: 'to_do'),
         method: :put, class: '' %>
-        <%= link_to '<i class="fa fa-arrow-right" style="float:right;"></i>'.html_safe, change_task_path(task, state: 'done'),
+        <%= link_to '<i class="fa fa-arrow-right" style="float:right; position:relative;top:-10px; left:8px;""></i>'.html_safe, change_task_path(task, state: 'done'),
         method: :put, class: '' %>
         <% elsif task.state == 'done' %>
-        <%= link_to '<i class="fa fa-arrow-left" style="float:left;"></i>'.html_safe, change_task_path(task, state: 'doing'),
+        <%= link_to '<i class="fa fa-arrow-left" style="float:left; position:relative;top:-10px; left:-8px;""></i>'.html_safe, change_task_path(task, state: 'doing'),
         method: :put, class: '' %>
         <% else %>
-        <%= link_to '<i class="fa fa-arrow-right" style="float:right;"></i>'.html_safe, change_task_path(task, state: 'doing'),
+        <%= link_to '<i class="fa fa-arrow-right" style="float:right; position:relative;top:-10px; left:8px;""></i>'.html_safe, change_task_path(task, state: 'doing'),
         method: :put, class: '' %>
         <% end %>
     </div>

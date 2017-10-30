@@ -3,7 +3,7 @@
 
   <div class='row time_control'>
     <p class="c_date"></p>
-    <p class="c_time"></p>
+    <p class="c_hour" style="display:inline"></p><p class="c_seconds"style="display:inline;">:</p><p class="c_minutes" style="display:inline;"></p>
   </div>
 
   <section class ='row '>
@@ -62,7 +62,8 @@ if (c_hour > 12){
 $(".c_date").append( monthNames[c_month]+" ");
 $(".c_date").append(c_date.getDate());
 $(".c_date").append( ", " +c_date.getFullYear() );
-$(".c_time").append( " " + c_hour);
-$(".c_time").append( ":" + c_minutes + " " + tod);
+$(".c_hour").append( " " + c_hour);
+$(".c_minutes").append(c_minutes + " " + tod);
+
 
 </script>
