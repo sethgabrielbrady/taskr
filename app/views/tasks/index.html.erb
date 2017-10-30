@@ -47,7 +47,12 @@ let monthNames = ["January", "February", "March", "April", "May", "June", "July"
 let c_date = new Date();
 let c_hour = c_date.getHours();
 let c_month = c_date.getMonth();
+let c_minutes = c_date.getMinutes();
 let tod = "a.m.";
+
+if (c_minutes < 10 ){
+  c_minutes = "0" + c_minutes;
+}
 
 if (c_hour > 12){
   c_hour = c_hour - 12;
@@ -58,6 +63,6 @@ $(".c_date").append( monthNames[c_month]+" ");
 $(".c_date").append(c_date.getDate());
 $(".c_date").append( ", " +c_date.getFullYear() );
 $(".c_time").append( " " + c_hour);
-$(".c_time").append( ":" +c_date.getMinutes() + " " + tod);
+$(".c_time").append( ":" + c_minutes + " " + tod);
 
 </script>
